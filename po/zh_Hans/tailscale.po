@@ -70,7 +70,7 @@ msgstr "启用"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/interface.js:47
 msgid "Error parsing interface info: %s."
-msgstr "接口信息解析错误：%s。"
+msgstr "解析接口信息时出错：%s。"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/setting.js:190
 msgid "Exit Node"
@@ -103,11 +103,11 @@ msgstr "授予访问 Tailscale 配置的权限"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/interface.js:73
 msgid "IPv4 Address"
-msgstr "IPv4地址"
+msgstr "IPv4 地址"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/interface.js:77
 msgid "IPv6 Address"
-msgstr "IPv6地址"
+msgstr "IPv6 地址"
 
 #: luci-app-tailscale/root/usr/share/luci/menu.d/luci-app-tailscale.json:22
 msgid "Interface Info"
@@ -178,7 +178,7 @@ msgstr "没有可用的子网路由"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/interface.js:61
 msgid "No interface online."
-msgstr "无在线接口。"
+msgstr "没有在线接口。"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/setting.js:190
 msgid ""
@@ -259,7 +259,7 @@ msgstr "虚拟局域网访问本地广域网"
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/interface.js:101
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/setting.js:114
 msgid "Tailscale is a cross-platform and easy to use virtual LAN."
-msgstr "Tailscale 是一个跨平台且易于使用的虚拟局域网 VPN。"
+msgstr "Tailscale 是一个跨平台且易于使用的虚拟局域网。"
 
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/setting.js:158
 msgid ""
@@ -299,3 +299,75 @@ msgstr "本地广域网访问虚拟局域网"
 #: luci-app-tailscale/htdocs/luci-static/resources/view/tailscale/setting.js:158
 msgid "Workdir"
 msgstr "工作目录"
+
+
+msgid "No peers found"
+msgstr "未找到节点"
+
+
+msgid "Permission denied: Ensure the user running LuCI has access to run "tailscale status --json". Try configuring sudo or checking Tailscale service permissions."
+msgstr "权限被拒绝：请确保运行 LuCI 的用户有权限执行 "tailscale status --json"。可以尝试配置 sudo 或检查 Tailscale 服务权限。"
+
+
+msgid "Tailscale service is not running. Please start Tailscale and try again."
+msgstr "Tailscale 服务未运行，请启动 Tailscale 后重试。"
+
+
+msgid "Unable to get Tailscale status: %s."
+msgstr "无法获取 Tailscale 状态：%s。"
+
+
+msgid "Error retrieving status"
+msgstr "获取状态时出错"
+
+
+msgid "Tailscale status command returned empty output. Ensure Tailscale is running."
+msgstr "Tailscale 状态命令返回空输出，请确保 Tailscale 正在运行。"
+
+
+msgid "No status output"
+msgstr "没有状态输出"
+
+
+msgid "Error parsing Tailscale status JSON: %s."
+msgstr "解析 Tailscale 状态 JSON 时出错：%s。"
+
+
+msgid "Error parsing status"
+msgstr "解析状态时出错"
+
+
+msgid "Peer Status"
+msgstr "节点状态"
+
+
+msgid "Current status of Tailscale nodes and connections."
+msgstr "Tailscale 节点和连接的当前状态。"
+
+
+msgid "IP"
+msgstr "IP"
+
+
+msgid "Hostname"
+msgstr "主机名"
+
+
+msgid "Status"
+msgstr "状态"
+
+
+msgid "Relay"
+msgstr "中继"
+
+
+msgid "Connection"
+msgstr "连接"
+
+
+msgid "Rx Bytes"
+msgstr "接收字节数"
+
+
+msgid "Tx Bytes"
+msgstr "发送字节数"
