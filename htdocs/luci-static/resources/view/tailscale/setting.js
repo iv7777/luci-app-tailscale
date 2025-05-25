@@ -237,7 +237,7 @@ return view.extend({
 		o.value('ts_ac_wan', _('Tailscale access WAN'));
 		o.value('lan_ac_ts', _('LAN access Tailscale'));
 		o.value('wan_ac_ts', _('WAN access Tailscale'));
-		o.default = "ts_ac_lan ts_ac_wan lan_ac_ts";
+		o.default = "ts_ac_lan lan_ac_ts";
 		o.rmempty = true;
 
 		s.tab('extra', _('Extra Settings'));
